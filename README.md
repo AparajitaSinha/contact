@@ -1,0 +1,114 @@
+# contact
+form{
+    padding-left: 350px;
+    padding-right: 300px;
+    
+}
+table {
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    }
+
+table tr{
+    height: 50px;
+    
+}
+
+
+----------------------
+
+<html>
+<head>
+<title>Contact Us
+</title>
+
+
+<style>
+body {background-color: powderblue;
+text-align: center;}
+table{
+	background-color: white;
+}
+h1   {color: black;
+text-align: center;
+}
+h3   {text-align: center;}
+p    {color: red;}
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+
+
+
+</head>
+<body>
+	<form>
+<table>
+	<tr><td>
+        <h1>
+          CONTACT US
+        </h1>
+        </td>
+    </tr>
+    <tr><td>
+    	<h3>
+          Please fill this form and let us know about your query  !!
+        </h3></td>
+    </tr>
+	<tr><td>	
+		Full Name:*<input type="text" id="fname" name="firstname" placeholder="Your name.."></td>
+	</tr>
+	    <br>
+		<br>
+		<br>
+	<tr><td>	
+		Email:*<input type="text" id="email" name="email" placeholder="Your email..."></td>
+	</tr>
+	    <br>
+		<br>
+		<br>
+	<tr><td>	
+		Message:<input type="text" id="msg" name="msg" placeholder="Your message....."></td>
+	</tr>
+
+        <br>
+        <br>
+    <tr><td>   
+     <input type="submit" value="Submit"></td>
+    </tr> 
+
+</table>
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
